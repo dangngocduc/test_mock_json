@@ -1,0 +1,91 @@
+{
+  "type": "ListView",
+  "children": [
+    {
+      "type": "Row",
+      "children": [
+        {
+          "type": "Container",
+          "width": 48.0,
+          "padding": "12,12,12,12",
+          "child": {
+            "type": "Column",
+            "mainAxisSize": "min",
+            "children": [
+              {
+                "type": "Container",
+                "padding": "12,12,12,12",
+                "width": 48.0,
+                "height": 48.0,
+                "color": "#CCCCCC"
+              },
+              {
+                "type": "Text",
+                "data": "Sunshine Homes"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "child": {
+        "type": "Row",
+        "children": [
+          {
+            "type": "NetworkImage",
+            "width": 48.0,
+            "height": 48.0,
+            "src": "https://www.clipartmax.com/png/middle/204-2045091_group-together-teamwork-icon-people-icon-flat-png.png"
+          },
+          {
+            "type": "Expanded",
+            "child": {
+              "type": "Container",
+              "padding": "0,12,0,0",
+              "child" : {
+                "type": "Column",
+                "mainAxisSize": "min",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Text",
+                    "textSpan": {
+                      "type": "TextSpan",
+                      "text": "Sunshine City - Khu đô thị Ciputra Hà Nội",
+                      "style": {
+                        "type": "TextStyle",
+                        "color": "#6DD5F5", "fontSize": 16.0
+                      }
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "textSpan": {
+                      "type": "TextSpan",
+                      "text": "21/10/2019",
+                      "style": {
+                        "type": "TextStyle",
+                        "color": "#333333", "fontSize": 12.0
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "Container",
+            "padding": "12,12,12,12",
+            "child": {
+              "type": "AssetImage",
+              "name": "images/baseline_more_horiz_black_18dp.png"
+
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
